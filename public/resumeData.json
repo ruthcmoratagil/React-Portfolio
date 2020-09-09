@@ -1,0 +1,233 @@
+{
+  "main": {
+    "name": "Marc Stämpfli",
+    "occupation": "Web Developer",
+    "description": "Full Stack Web Developer",
+    "image": "marc-stampfli.jpg",
+    "bio": "I'm a highly dependable and organized individual with years of experience in Web Development. My knowledge in various front-end and back-end technologies, responsive frameworks, databases, and best code practices has allowed me to build and manage various websites for a number of clients both locally and abroad.",
+    "contactmessage": "Get in touch with me.",
+    "email": "marcstampfli@gmail.com",
+    "phone": "+1 (868) 486-9562",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "Port of Spain",
+      "country": "Trinidad and Tobago",
+      "zip": ""
+    },
+    "website": "http://www.marcstampfli.com",
+    "resumedownload": "https://marcstampfli.com/wp-content/uploads/2020/07/Marc_Stampfli_Resume.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/marc.stampfli8",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/marc-stampfli/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/marcstampfli",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "SBCS - Global Learning Institute",
+        "degree": "Bachelor's degree, BSC (Hons) in Computing",
+        "graduated": "2006 - 2008",
+        "description": "I completed 2 years of my Bachelor's degree until I was given the opportunity to work at Simply Intense Media."
+      },
+      {
+        "school": "St. Anthony's College",
+        "degree": "Caribbean Examinations Council (CXC)",
+        "graduated": "Sept 2001 - May 2006",
+        "description": "Graduating class of 2006"
+      }
+    ],
+    "work": [
+      {
+        "company": "Freelance",
+        "title": "Web Developer (Full-Time)",
+        "years": "Apr 2013 - present",
+        "description": "I professionally freelance websites to clients locally an abroad."
+      },
+      {
+        "company": "XHUMA Healthcare",
+        "title": "Web Developer (Contract)",
+        "years": "Apr 2020 - Jun 2020",
+        "description": "I worked on front-end and back-end development on various modules for a management system. Fully-remote work."
+      },
+      {
+        "company": "George Gonzalez Entertainment Services",
+        "title": "Sound Engineer (Contract)",
+        "years": "Apr 2013 - Mar 2020",
+        "description": "A sound and lighting company specializing in providing equipment for small and large scale events. I transport and setup all the music, lighting and trussing equipment."
+      },
+      {
+        "company": "CCN Group",
+        "title": "Webmaster (Contract)",
+        "years": "Oct 2018 - Mar 2019",
+        "description": "I managed the content for Trinidad Express Newspaper and CCN TV6. Also their ePaper, Social Media and minor video editing for their Beyond the Tape segment. Semi-remote work."
+      },
+      {
+        "company": "MACO Magazines",
+        "title": "Web Developer (Full-Time)",
+        "years": "Feb 2017 - Mar 2018",
+        "description": "In-house Web Developer for all of MACO Magazines. I managed their websites and social media. Also the digitization of their magazines for flip books. Semi-remote work."
+      },
+      {
+        "company": "Simply Intense Media",
+        "title": "Web Developer (Full-Time)",
+        "years": "Oct 2008 - Mar 2013",
+        "description": "I was a full-time Web Developer. I was also part Web Designer, Server & Database Administrator."
+      },
+      {
+        "company": "Bombay Company",
+        "title": "Sales Clerk (Full-Time)",
+        "years": "Dec 2006 - Jan 2008",
+        "description": "Assisting customers in the items for sale as well working the cash register."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Frontend Development",
+        "level": "80%"
+      },
+      {
+        "name": "Backend Development",
+        "level": "60%"
+      },
+      {
+        "name": "Database Development",
+        "level": "45%"
+      },
+      {
+        "name": "Mobile Development",
+        "level": "10%"
+      },
+      {
+        "name": "Dev Ops",
+        "level": "35%"
+      },
+      {
+        "name": "Graphic/UI Design",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Website - Django Portfolio",
+        "category": "My portfolio built with Python/Django. Hosted on Heroku",
+        "image": "msportfolio.jpg",
+        "url": "https://marcstampfli-portfolio.herokuapp.com"
+      },
+      {
+        "title": "Website - Gypsea Soul Jewelry",
+        "category": "Ecommerce site built with WooCommerce",
+        "image": "gypsea.jpg",
+        "url": "https://gypseasouljewelry.co"
+      },
+      {
+        "title": "Website - Lagoona Villa",
+        "category": "A brochure type site built with WordPress",
+        "image": "lagoona.jpg",
+        "url": "https://www.lagoonavilla.com"
+      },
+      {
+        "title": "Flyer - Johnny Rockets Bar",
+        "category": "A flyer design concept for a foreign bar",
+        "image": "johnny.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Website - Night Owlz Jouvert",
+        "category": "Ecommerce site built with WooCommerce",
+        "image": "nightowlz.jpg",
+        "url": "https://nightowlztt.com"
+      },
+      {
+        "title": "Flyer - Lagoona Villa",
+        "category": "A flyer for their promotion",
+        "image": "lagoonaflyer.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Website - Tobago Housing Resorts",
+        "category": "A real estate website built with WordPress",
+        "image": "tobagohousing.jpg",
+        "url": "http://www.tobagohousingresorts.com"
+      },
+      {
+        "title": "Website - Inland and Offshore Contractors Limited",
+        "category": "A brochure type site custom built with PHP/jQuery",
+        "image": "iocl.jpg",
+        "url": "http://www.iocltt.com"
+      },
+      {
+        "title": "Flyer - LIPS Program",
+        "category": "A flyer for their advertisement",
+        "image": "lipsflyer.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Logo - Gimmick Tees",
+        "category": "A logo for a local t-shirt company",
+        "image": "gtlogo.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Banner - Paid Carwash",
+        "category": "A banner for large print",
+        "image": "paidbanner.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Website - Addict Gang",
+        "category": "A website for a local rap group",
+        "image": "addictgang.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Flyer - Irie Bites",
+        "category": "A flyer design concept for a local restaurant",
+        "image": "iriebitesflyer.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Website - Trini Revellers",
+        "category": "A website for a local Carnival band",
+        "image": "trinirevellers.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Business Card - Marc Stampfli",
+        "category": "A previous business card design of mine",
+        "image": "msbcard.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Website - Softbox Studios",
+        "category": "A website for a local photography business",
+        "image": "softbox.jpg",
+        "url": "#"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "When something is important enough, you do it even if the odds are not in your favor.",
+        "user": "Elon Musk"
+      }
+    ]
+  }
+}
