@@ -15,11 +15,21 @@ class Portfolio extends Component {
                 trigger={<img alt={projects.title} src={projectImage} />}
                 modal
               >
-                <a href={projects.url} title={projects.title} target="_blank">
+                <a
+                  href={projects.url}
+                  title={projects.title}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img alt={projects.title} src={projectImage} />
                 </a>
                 <div className="link-icon">
-                  <a href={projects.url} title={projects.title} target="_blank">
+                  <a
+                    href={projects.url}
+                    title={projects.title}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-external-link"></i>
                   </a>
                 </div>
