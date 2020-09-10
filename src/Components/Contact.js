@@ -10,6 +10,8 @@ const Contact = ({ data }) => {
   const [message, setMessage] = useState("");
 
   console.log(data);
+  console.log(url);
+  console.log(setUrl);
 
   const handleClick = (e) => {
     e.preventDefault();
