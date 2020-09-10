@@ -4,15 +4,14 @@ class Header extends Component {
   render() {
     if (this.props.data) {
       var fullname = this.props.data.name;
-      var firstname = fullname.split(" ");
-      var firstname = firstname.shift();
+      var firstname = fullname.split(" ").shift();
       var occupation = this.props.data.occupation;
       // var description= this.props.data.description;
       var country = this.props.data.address.country;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
-            <a href={network.url} target="_blank">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
               <i className={network.className}></i>
             </a>
           </li>
