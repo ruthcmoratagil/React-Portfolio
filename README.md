@@ -1,10 +1,8 @@
-# ReactJS Portfolio Template     
-
-![ReactJS Resume Website Template](resume-screenshot.png?raw=true "ReactJS Resume Website Template")
+# ReactJS Portfolio     
 
 ![ReactJS Resume Website Screenshot](/public/images/portfolio-screenshot.png?raw=true "ReactJS Resume Website Screenshot")
 
-## <a href="https://www.ruthcmoratagil.dev/">Link to Profile</a>
+## <a href="https://www.ruthcmoratagil.dev/">Link to ReactJS Portfolio</a>
 
 #### All Credits Goes to Tim Baker <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
 
