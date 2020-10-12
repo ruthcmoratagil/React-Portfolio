@@ -1,0 +1,7 @@
+https://favicon.io/favicon-generator/
+
+Bg color: #3eb0f7
+Font color: #FFFFFF
+Bg: Circle
+Font family: Leckerli One (Google Fonts)
+Font size: 50px
