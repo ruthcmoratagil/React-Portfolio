@@ -6,7 +6,7 @@ class Header extends Component {
             var fullname = this.props.data.name;
             var firstname = fullname.split(' ').shift();
             var occupation = this.props.data.occupation;
-            // var description= this.props.data.description;
+            // var description = this.props.data.description;
             var city = this.props.data.address.city;
             var networks = this.props.data.social.map(function (network) {
                 return (
@@ -50,7 +50,7 @@ class Header extends Component {
                                 Portfolio
                             </a>
                         </li>
-                        {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
+                        {/* <li><a className="smoothscroll" href="#quote">Quote</a></li> */}
                         <li>
                             <a className="smoothscroll" href="#contact">
                                 Contact

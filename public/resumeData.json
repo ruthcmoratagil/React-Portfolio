@@ -1,26 +1,27 @@
 {
     "main": {
         "name": "Ruth C. Morata Gil",
-        "occupation": "Web Developer",
-        "description": "Full Stack Web Developer",
-        "image": "profile_pic.png",
-        "bio": "Hi there! I am a Full Stack Web Developer based in Barcelona",
-        "contactmessage": "Get in touch with me.",
-        "email": "marcstampfli@gmail.com",
-        "phone": "+1 (868) 486-9562",
+        "occupation": "Junior Full Stack Developer",
+        "description": "",
+        "image": "profile-pic.png",
+        "biofirst": "My name is Ruth C. and I am a Junior Full Stack Developer. I was born in Barcelona in 1985 and I dwelt both in Oxford (UK) and in Austria. I enjoy contributing, structuring, creating and suggesting improvements. I am currently searching for job opportunities to keep growing and learning. Looking forward to an exciting project to involve myself in!",
+        "biosecond": "Web development/design and Movement/body arts are the two fields my days revolve around and that I have my heart stolen by. I also try my best to be an NVC (Non-Violent Communication) practitioner.",
+        "contactmessage": "Think I'd be a good fit for your team? I'd love to hear from you! Feel free to give me a shout by email or by using the form below.",
+        "contactwarningmessage": "Warning: Contact form not yet configured, please contact me via normal email for now",
+        "email": "ruth.morata@gmail.com",
+        "phone": "(+34) 646 11 66 41",
         "address": {
             "street": "",
             "city": "Barcelona",
-            "state": "",
             "country": "Spain",
             "zip": ""
         },
-        "website": "http://www.marcstampfli.com",
-        "resumedownload": "https://marcstampfli.com/wp-content/uploads/2020/07/Marc_Stampfli_Resume.pdf",
+        "website": "http://www.ruthcmoratagil.dev/",
+        "resumedownload": "https://drive.google.com/file/d/1llYhaU0FRdh93yvw_jix8Ot-Gh1bZTev/view?usp=sharing",
         "social": [
             {
                 "name": "linkedin",
-                "url": "https://www.linkedin.com/in/ruthcmoratagil/",
+                "url": "https://www.linkedin.com/in/ruthcmoratagil",
                 "className": "fa fa-linkedin"
             },
             {
@@ -31,197 +32,120 @@
         ]
     },
     "resume": {
-        "skillmessage": "",
         "education": [
             {
-                "school": "SBCS - Global Learning Institute",
-                "degree": "Bachelor's degree, BSC (Hons) in Computing",
-                "graduated": "2006 - 2008",
-                "description": "I completed 2 years of my Bachelor's degree until I was given the opportunity to work at Simply Intense Media."
+                "school": "Nuclio Digital School",
+                "degree": "Master's degree in Full Stack Development",
+                "duration": "June - November 2020",
+                "location": "Barcelona, ES",
+                "description": "Technologies learned: ReactJS, HTML5, CSS3, Laravel (PHP), Docker, Git/Github, SQL. Usage of Agile Methodology"
             },
             {
-                "school": "St. Anthony's College",
-                "degree": "Caribbean Examinations Council (CXC)",
-                "graduated": "Sept 2001 - May 2006",
-                "description": "Graduating class of 2006"
+                "school": "Digital Dreams Films",
+                "degree": "Course in Autodesk Maya 2011",
+                "duration": "2011 - 2012",
+                "location": "Barcelona, ES",
+                "description": "Learnt how to work with 3D animation"
+            },
+            {
+                "school": "Oxford University (SBCB Unit)",
+                "degree": "Master’s Project in Bioinformatics for Health Sciences",
+                "duration": "2009 - 2010",
+                "location": "Oxford, UK",
+                "description": "Second year. I completed my 2-year Master's degree with this project titled 'Conformational Flexibility and Ligand Binding of the Outer Membrane Enzyme PagP'. I joined as a Visiting Researcher at the Structural Bioinformatics and Computational Biochemistry Unit, placed in the Biochemistry Department of the University of Oxford (UK). Keywords: Membrane Proteins, Molecular Dynamics Simulations, GROMACS, Coarse Grain, Atomistic, Protein-Ligand Docking"
+            },
+            {
+                "school": "Universitat Pompeu Fabra (UPF)",
+                "degree": "Master’s degree in Bioinformatics for Health Sciences",
+                "duration": "2008 - 2009",
+                "location": "Barcelona, ES",
+                "description": "First year of my Master's degree. Keywords: Molecular Dynamics Simulations, Computer-Assisted Drug Discovery, Perl/Python/R Programming, Computational Systems Biology, Genomic Bioinformatics, Project Management"
+            },
+            {
+                "school": "Universitat de Barcelona (UB)",
+                "degree": "Degree in Chemistry",
+                "duration": "2003 - 2008",
+                "location": "Barcelona, ES",
+                "description": "First University studies. Keywords: Quantum Chemistry, Chemical Engineering, Data Analysis, FORTRAN, Organic and Inorganic Chemistry, Analytical Chemistry"
             }
         ],
         "work": [
             {
-                "company": "Freelance",
-                "title": "Web Developer (Full-Time)",
-                "years": "Apr 2013 - present",
-                "description": "I professionally freelance websites to clients locally an abroad."
+                "company": "BC Tours / Transcoma / DW (Bags&Go) / Intercruises / Exploramás / Spinergy / Tumlare / Tais / Citytravel / The Tour Guy / My Friendly Guide",
+                "title": "Technical administrator / Check-in agent (Freelance)",
+                "duration": "2011 - 2020",
+                "location": "Barcelona, ES",
+                "description": "Cruise check-in agent at Port Barcelona. Transfers, hospitalities, tours. Team building events for corporations. Host services for AMA Waterways and Viking Cruises. Technical administrator: SAP, MWC, BIZ, ITMA, Smart City, IBTM, Fòrum Gastronòmic. Incentives: Chairman’s Council EMEA"
             },
             {
-                "company": "XHUMA Healthcare",
-                "title": "Web Developer (Contract)",
-                "years": "Apr 2020 - Jun 2020",
-                "description": "I worked on front-end and back-end development on various modules for a management system. Fully-remote work."
+                "company": "English teacher",
+                "title": "English teacher (Freelance)",
+                "duration": "2011 - 2020",
+                "location": "Barcelona, ES",
+                "description": "Private English teacher for kids, teenagers and adults. Preparation for official examinations"
             },
             {
-                "company": "George Gonzalez Entertainment Services",
-                "title": "Sound Engineer (Contract)",
-                "years": "Apr 2013 - Mar 2020",
-                "description": "A sound and lighting company specializing in providing equipment for small and large scale events. I transport and setup all the music, lighting and trussing equipment."
-            },
-            {
-                "company": "CCN Group",
-                "title": "Webmaster (Contract)",
-                "years": "Oct 2018 - Mar 2019",
-                "description": "I managed the content for Trinidad Express Newspaper and CCN TV6. Also their ePaper, Social Media and minor video editing for their Beyond the Tape segment. Semi-remote work."
-            },
-            {
-                "company": "MACO Magazines",
-                "title": "Web Developer (Full-Time)",
-                "years": "Feb 2017 - Mar 2018",
-                "description": "In-house Web Developer for all of MACO Magazines. I managed their websites and social media. Also the digitization of their magazines for flip books. Semi-remote work."
-            },
-            {
-                "company": "Simply Intense Media",
-                "title": "Web Developer (Full-Time)",
-                "years": "Oct 2008 - Mar 2013",
-                "description": "I was a full-time Web Developer. I was also part Web Designer, Server & Database Administrator."
-            },
-            {
-                "company": "Bombay Company",
-                "title": "Sales Clerk (Full-Time)",
-                "years": "Dec 2006 - Jan 2008",
-                "description": "Assisting customers in the items for sale as well working the cash register."
+                "company": "AMES / ALME",
+                "title": "Logistics agent",
+                "duration": "2005 - 2006",
+                "location": "Barcelona, ES",
+                "description": "In charge of the administration and shipping of goods at the Logistic Dept. for national and international clients. Apprentice at the I+D Dept"
             }
         ],
+        "skillmessage": "During my studies and my free time I have acquired the following skills:",
         "skills": [
             {
-                "name": "Frontend Development",
-                "level": "80%"
+                "icon": "icon_react2.png",
+                "name": "ReactJs",
+                "level": "70%"
             },
             {
-                "name": "Backend Development",
+                "icon": "icon_html.png",
+                "name": "HTML5",
+                "level": "50%"
+            },
+            {
+                "icon": "icon_css.png",
+                "name": "CSS3",
                 "level": "60%"
             },
             {
-                "name": "Database Development",
-                "level": "45%"
+                "icon": "icon_git.png",
+                "name": "Git / Github",
+                "level": "50%"
             },
             {
-                "name": "Mobile Development",
-                "level": "10%"
+                "icon": "icon_react.png",
+                "name": "Laravel",
+                "level": "40%"
             },
             {
-                "name": "Dev Ops",
-                "level": "35%"
+                "icon": "icon_react.png",
+                "name": "SQL",
+                "level": "30%"
             },
             {
-                "name": "Graphic/UI Design",
-                "level": "60%"
+                "icon": "icon_react.png",
+                "name": "InDesign / iMovie",
+                "level": "25%"
             }
         ]
     },
     "portfolio": {
         "projects": [
             {
-                "title": "Website - Django Portfolio",
-                "category": "My portfolio built with Python/Django. Hosted on Heroku",
-                "image": "msportfolio.jpg",
-                "url": "https://marcstampfli-portfolio.herokuapp.com"
-            },
-            {
-                "title": "Website - Gypsea Soul Jewelry",
-                "category": "Ecommerce site built with WooCommerce",
-                "image": "gypsea.jpg",
-                "url": "https://gypseasouljewelry.co"
-            },
-            {
-                "title": "Website - Lagoona Villa",
-                "category": "A brochure type site built with WordPress",
-                "image": "lagoona.jpg",
-                "url": "https://www.lagoonavilla.com"
-            },
-            {
-                "title": "Flyer - Johnny Rockets Bar",
-                "category": "A flyer design concept for a foreign bar",
-                "image": "johnny.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Website - Night Owlz Jouvert",
-                "category": "Ecommerce site built with WooCommerce",
-                "image": "nightowlz.jpg",
-                "url": "https://nightowlztt.com"
-            },
-            {
-                "title": "Flyer - Lagoona Villa",
-                "category": "A flyer for their promotion",
-                "image": "lagoonaflyer.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Website - Tobago Housing Resorts",
-                "category": "A real estate website built with WordPress",
-                "image": "tobagohousing.jpg",
-                "url": "http://www.tobagohousingresorts.com"
-            },
-            {
-                "title": "Website - Inland and Offshore Contractors Limited",
-                "category": "A brochure type site custom built with PHP/jQuery",
-                "image": "iocl.jpg",
-                "url": "http://www.iocltt.com"
-            },
-            {
-                "title": "Flyer - LIPS Program",
-                "category": "A flyer for their advertisement",
-                "image": "lipsflyer.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Logo - Gimmick Tees",
-                "category": "A logo for a local t-shirt company",
-                "image": "gtlogo.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Banner - Paid Carwash",
-                "category": "A banner for large print",
-                "image": "paidbanner.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Website - Addict Gang",
-                "category": "A website for a local rap group",
-                "image": "addictgang.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Flyer - Irie Bites",
-                "category": "A flyer design concept for a local restaurant",
-                "image": "iriebitesflyer.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Website - Trini Revellers",
-                "category": "A website for a local Carnival band",
-                "image": "trinirevellers.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Business Card - Marc Stampfli",
-                "category": "A previous business card design of mine",
-                "image": "msbcard.jpg",
-                "url": "#"
-            },
-            {
-                "title": "Website - Softbox Studios",
-                "category": "A website for a local photography business",
-                "image": "softbox.jpg",
-                "url": "#"
+                "title": "Skyscanner Clone (ReactJS)",
+                "category": "Final Project from Master in Full Stack Development",
+                "image": "skyscanner-clone-skyreader.png",
+                "url": "https://github.com/jaumeserr/Skyscanner-Nuclio/"
             }
         ]
     },
-    "testimonials": {
-        "testimonials": [
+    "quote": {
+        "quote": [
             {
-                "text": "When something is important enough, you do it even if the odds are not in your favor.",
-                "user": "Elon Musk"
+                "text": "Today's mighty oak is just yesterday's nut that held its ground.",
+                "user": "David Icke"
             }
         ]
     }
