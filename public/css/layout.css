@@ -341,6 +341,34 @@ ul#nav li:first-child.current a {
     margin-top: 6px;
 }
 
+#resume .custom-list {
+    list-style: none;
+    text-indent: -26px;
+    /* background-color: green; */
+    margin: 15px 0px 48px 35px;
+}
+
+#resume .custom-list li {
+    margin-bottom: 10px;
+    /* background-color: pink; */
+    /* opacity: 70%; */
+    line-height: 25px;
+}
+
+#resume .fa-fw {
+    /* background-color: rgb(201, 192, 255); */
+    margin-right: 7px;
+}
+
+/*
+#resume .custom-list li::before {
+    content: '\f007';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    background-color: pink;
+    padding-right: 10px;
+} */
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
