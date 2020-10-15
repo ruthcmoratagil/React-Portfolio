@@ -1,3 +1,4 @@
+// import '@fortawesome/fontawesome-free/js/all.js';
 import React, { Component } from 'react';
 
 class Resume extends Component {
@@ -14,7 +15,32 @@ class Resume extends Component {
                             <span>&bull;</span>
                             <em className="duration-and-location"> {education.location} </em>
                         </p>
-                        <p>{education.description}</p>
+                        <ul className="fa-ul custom-list">
+                            {education.description1 && (
+                                <li>
+                                    <i className="fa fa-arrow-right fa-fw"></i>
+                                    {education.description1}
+                                </li>
+                            )}
+                            {education.description2 && (
+                                <li>
+                                    <i className="fa fa-arrow-right fa-fw"></i>
+                                    {education.description2}
+                                </li>
+                            )}
+                            {education.description3 && (
+                                <li>
+                                    <i className="fa fa-arrow-right fa-fw"></i>
+                                    {education.description3}
+                                </li>
+                            )}
+                            {education.description4 && (
+                                <li>
+                                    <i className="fa fa-arrow-right fa-fw"></i>
+                                    {education.description4}
+                                </li>
+                            )}
+                        </ul>
                     </div>
                 );
             });
@@ -29,7 +55,30 @@ class Resume extends Component {
                             <span>&bull;</span>
                             <em className="duration-and-location"> {work.location} </em>
                         </p>
-                        <p>{work.description}</p>
+                        <ul className="fa-ul custom-list">
+                            <li>
+                                <i className="fa fa-check fa-fw"></i>
+                                {work.description1}
+                            </li>
+                            {work.description2 && (
+                                <li>
+                                    <i className="fa fa-check fa-fw"></i>
+                                    {work.description2}
+                                </li>
+                            )}
+                            {work.description3 && (
+                                <li>
+                                    <i className="fa fa-check fa-fw"></i>
+                                    {work.description3}
+                                </li>
+                            )}
+                            {work.description4 && (
+                                <li>
+                                    <i className="fa fa-check fa-fw"></i>
+                                    {work.description4}
+                                </li>
+                            )}
+                        </ul>
                     </div>
                 );
             });
