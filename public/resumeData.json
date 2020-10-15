@@ -4,8 +4,8 @@
         "occupation": "Junior Full Stack Developer",
         "description": "",
         "image": "profile-pic.png",
-        "biofirst": "My name is Ruth C. and I am a Junior Full Stack Developer. I was born in Barcelona in 1985 and I dwelt both in Oxford (UK) and in Austria. I enjoy contributing, structuring, creating and suggesting improvements. I am currently searching for job opportunities to keep growing and learning. Looking forward to an exciting project to involve myself in!",
-        "biosecond": "Web development/design and Movement/body arts are the two fields my days revolve around and that I have my heart stolen by. I also try my best to be an NVC (Non-Violent Communication) practitioner.",
+        "bio1": "My name is Ruth C. and I am a Junior Full Stack Developer. I was born in Barcelona in 1985 and I dwelt both in Oxford (UK) and in Austria. I enjoy contributing, structuring, creating and suggesting improvements. I am currently searching for job opportunities to keep growing and learning. Looking forward to an exciting project to involve myself in!",
+        "bio2": "Web development/design and Movement/body arts are the two fields my days revolve around and that I have my heart stolen by. I also try my best to be an NVC (Non-Violent Communication) practitioner.",
         "contactmessage": "Think I'd be a good fit for your team? I'd love to hear from you! Feel free to give me a shout by email or by using the form below.",
         "contactwarningmessage": "Warning: Contact form not yet configured, please contact me via normal email for now",
         "email": "ruth.morata@gmail.com",
@@ -38,35 +38,42 @@
                 "degree": "Master's degree in Full Stack Development",
                 "duration": "June - November 2020",
                 "location": "Barcelona, ES",
-                "description": "Technologies learned: ReactJS, HTML5, CSS3, Laravel (PHP), Docker, Git/Github, SQL. Usage of Agile Methodology"
+                "description1": "Frontend technologies: ReactJS, HTML5, CSS3, JavaScript",
+                "description2": "Backend technologies: Laravel (PHP), MySQL",
+                "description3": "Tools: Docker, Git/Github",
+                "description4": "Methodology: Usage of Agile Methodology"
             },
             {
                 "school": "Digital Dreams Films",
                 "degree": "Course in Autodesk Maya 2011",
                 "duration": "2011 - 2012",
                 "location": "Barcelona, ES",
-                "description": "Learnt how to work with 3D animation"
+                "description1": "Learnt how to work with 3D animation"
             },
             {
                 "school": "Oxford University (SBCB Unit)",
                 "degree": "Master’s Project in Bioinformatics for Health Sciences",
                 "duration": "2009 - 2010",
                 "location": "Oxford, UK",
-                "description": "Second year. I completed my 2-year Master's degree with this project titled 'Conformational Flexibility and Ligand Binding of the Outer Membrane Enzyme PagP'. I joined as a Visiting Researcher at the Structural Bioinformatics and Computational Biochemistry Unit, placed in the Biochemistry Department of the University of Oxford (UK). Keywords: Membrane Proteins, Molecular Dynamics Simulations, GROMACS, Coarse Grain, Atomistic, Protein-Ligand Docking"
+                "description1": "Second year of my Master's degree. I joined as a Visiting Researcher at the Structural Bioinformatics and Computational Biochemistry Unit, placed in the Biochemistry Department of the University of Oxford (UK)",
+                "description2": "Project title: Conformational Flexibility and Ligand Binding of the Outer Membrane Enzyme PagP",
+                "description3": "Keywords: Membrane Proteins, Molecular Dynamics Simulations, GROMACS, Coarse Grain, Atomistic, Protein-Ligand Docking"
             },
             {
                 "school": "Universitat Pompeu Fabra (UPF)",
                 "degree": "Master’s degree in Bioinformatics for Health Sciences",
                 "duration": "2008 - 2009",
                 "location": "Barcelona, ES",
-                "description": "First year of my Master's degree. Keywords: Molecular Dynamics Simulations, Computer-Assisted Drug Discovery, Perl/Python/R Programming, Computational Systems Biology, Genomic Bioinformatics, Project Management"
+                "description1": "First year of my Master's degree",
+                "description2": "Keywords: Molecular Dynamics Simulations, Computer-Assisted Drug Discovery, Perl/Python/R Programming, Computational Systems Biology, Genomic Bioinformatics, Project Management"
             },
             {
                 "school": "Universitat de Barcelona (UB)",
                 "degree": "Degree in Chemistry",
                 "duration": "2003 - 2008",
                 "location": "Barcelona, ES",
-                "description": "First University studies. Keywords: Quantum Chemistry, Chemical Engineering, Data Analysis, FORTRAN, Organic and Inorganic Chemistry, Analytical Chemistry"
+                "description1": "First University studies",
+                "description2": "Keywords: Quantum Chemistry, Chemical Engineering, Data Analysis, FORTRAN, Organic and Inorganic Chemistry, Analytical Chemistry"
             }
         ],
         "work": [
@@ -75,21 +82,26 @@
                 "title": "Technical administrator / Check-in agent (Freelance)",
                 "duration": "2011 - 2020",
                 "location": "Barcelona, ES",
-                "description": "Cruise check-in agent at Port Barcelona. Transfers, hospitalities, tours. Team building events for corporations. Host services for AMA Waterways and Viking Cruises. Technical administrator: SAP, MWC, BIZ, ITMA, Smart City, IBTM, Fòrum Gastronòmic. Incentives: Chairman’s Council EMEA"
+                "description1": "Technical administrator for Fira de Barcelona in congresses like SAP, MWC, BIZ, ITMA, Smart City, IBTM, Fòrum Gastronòmic. Technology used: SAP",
+                "description2": "Cruise check-in agent at Port de Barcelona. Host services for AMA Waterways and Viking Cruises. Transfers, hospitalities, tours",
+                "description3": "Team building events for corporations",
+                "description4": "Incentives: Chairman’s Council EMEA"
             },
             {
                 "company": "English teacher",
                 "title": "English teacher (Freelance)",
                 "duration": "2011 - 2020",
                 "location": "Barcelona, ES",
-                "description": "Private English teacher for kids, teenagers and adults. Preparation for official examinations"
+                "description1": "Private English teacher for kids, teenagers and adults",
+                "description2": "Preparation for official examinations"
             },
             {
                 "company": "AMES / ALME",
                 "title": "Logistics agent",
                 "duration": "2005 - 2006",
                 "location": "Barcelona, ES",
-                "description": "In charge of the administration and shipping of goods at the Logistic Dept. for national and international clients. Apprentice at the I+D Dept"
+                "description1": "In charge of the administration and shipping of goods at the Logistic Department. National and international clients",
+                "description2": "Apprentice at the I+D Department"
             }
         ],
         "skillmessage": "During my studies and my free time I have acquired the following skills:",
@@ -110,19 +122,24 @@
                 "level": "60%"
             },
             {
-                "icon": "icon_git.png",
-                "name": "Git / Github",
-                "level": "50%"
-            },
-            {
                 "icon": "icon_react.png",
-                "name": "Laravel",
+                "name": "Laravel (PHP)",
                 "level": "40%"
             },
             {
                 "icon": "icon_react.png",
                 "name": "SQL",
                 "level": "30%"
+            },
+            {
+                "icon": "icon_git.png",
+                "name": "Docker",
+                "level": "20%"
+            },
+            {
+                "icon": "icon_git.png",
+                "name": "Git / Github",
+                "level": "40%"
             },
             {
                 "icon": "icon_react.png",
@@ -136,6 +153,8 @@
             {
                 "title": "Skyscanner Clone (ReactJS)",
                 "category": "Final Project from Master in Full Stack Development",
+                "description1": "Developed in a small team. Agile Methodology",
+                "description2": "Technologies and tools used: ReactJS, HTML5, CSS3, Laravel (PHP), MySQL, Docker, Git / Github",
                 "image": "skyscanner-clone-skyreader.png",
                 "url": "https://github.com/jaumeserr/Skyscanner-Nuclio/"
             }
