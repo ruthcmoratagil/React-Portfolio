@@ -109,32 +109,32 @@
             {
                 "icon": "icon_react2.png",
                 "name": "ReactJs",
-                "level": "70%"
+                "level": "50%"
             },
             {
                 "icon": "icon_html.png",
                 "name": "HTML5",
-                "level": "50%"
+                "level": "40%"
             },
             {
                 "icon": "icon_css.png",
                 "name": "CSS3",
-                "level": "60%"
-            },
-            {
-                "icon": "icon_react.png",
-                "name": "Laravel (PHP)",
                 "level": "40%"
             },
             {
                 "icon": "icon_react.png",
-                "name": "SQL",
+                "name": "Laravel (PHP)",
                 "level": "30%"
+            },
+            {
+                "icon": "icon_react.png",
+                "name": "SQL",
+                "level": "20%"
             },
             {
                 "icon": "icon_git.png",
                 "name": "Docker",
-                "level": "20%"
+                "level": "10%"
             },
             {
                 "icon": "icon_git.png",
