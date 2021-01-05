@@ -38,26 +38,28 @@
                 "degree": "Master's degree in Full Stack Development",
                 "duration": "June - November 2020",
                 "location": "Barcelona, ES",
-                "description1": "Frontend technologies: ReactJS, HTML5, CSS3, JavaScript",
-                "description2": "Backend technologies: Laravel (PHP), MySQL",
-                "description3": "Tools: Docker, Git/Github",
-                "description4": "Methodology: Usage of Agile Methodology"
+                "description1": "Learnt a great deal of technologies and carried out a group project (Skyscanner clone) using the Agile Methodology",
+                "description2": "Frontend technologies: ReactJS, HTML5, CSS3, JavaScript",
+                "description3": "Backend technologies: Laravel (PHP), MySQL",
+                "description4": "Tools: Docker, Git/Github"
             },
             {
                 "school": "Digital Dreams Films",
                 "degree": "Course in Autodesk Maya 2011",
                 "duration": "2011 - 2012",
                 "location": "Barcelona, ES",
-                "description1": "Learnt how to work with 3D animation"
+                "description1": "Acquired the knowledge needed to work with 3D animation in order to apply it to the scientific field",
+                "description2": "Created 3D molecules and animated the interactions between them"
             },
             {
-                "school": "Oxford University (SBCB Unit)",
-                "degree": "Master’s Project in Bioinformatics for Health Sciences",
+                "school": "Oxford University (Biochemistry Dept.)",
+                "degree": "Master’s Thesis in Bioinformatics for Health Sciences",
                 "duration": "2009 - 2010",
                 "location": "Oxford, UK",
-                "description1": "Second year of my Master's degree. I joined as a Visiting Researcher at the Structural Bioinformatics and Computational Biochemistry Unit, placed in the Biochemistry Department of the University of Oxford (UK)",
-                "description2": "Project title: Conformational Flexibility and Ligand Binding of the Outer Membrane Enzyme PagP",
-                "description3": "Keywords: Membrane Proteins, Molecular Dynamics Simulations, GROMACS, Coarse Grain, Atomistic, Protein-Ligand Docking"
+                "description1": "Second year of my Master's degree",
+                "description2": "Developed entirely and also presented my Thesis while joining as a Visiting Researcher at the Structural Bioinformatics and Computational Biochemistry Unit (SBCB), placed in the Biochemistry Department of the University of Oxford (UK)",
+                "description3": "Thesis title: Conformational Flexibility and Ligand Binding of the Outer Membrane Enzyme PagP",
+                "description4": "Keywords: Membrane Proteins, Molecular Dynamics Simulations, GROMACS, Coarse Grain, Atomistic, Protein-Ligand Docking"
             },
             {
                 "school": "Universitat Pompeu Fabra (UPF)",
@@ -65,7 +67,8 @@
                 "duration": "2008 - 2009",
                 "location": "Barcelona, ES",
                 "description1": "First year of my Master's degree",
-                "description2": "Keywords: Molecular Dynamics Simulations, Computer-Assisted Drug Discovery, Perl/Python/R Programming, Computational Systems Biology, Genomic Bioinformatics, Project Management"
+                "description2": "Immersed myself in the world of genomics, proteomics and molecular simulations, mainly using programming, data analysis and visualization",
+                "description3": "Keywords: Molecular Dynamics Simulations, Computer-Assisted Drug Discovery, Perl/Python/R Programming, Computational Systems Biology, Genomic Bioinformatics, Project Management"
             },
             {
                 "school": "Universitat de Barcelona (UB)",
@@ -73,7 +76,8 @@
                 "duration": "2003 - 2008",
                 "location": "Barcelona, ES",
                 "description1": "First University studies",
-                "description2": "Keywords: Quantum Chemistry, Chemical Engineering, Data Analysis, FORTRAN, Organic and Inorganic Chemistry, Analytical Chemistry"
+                "description2": "Successfully completed all theoretical and practical (lab) subjects.",
+                "description3": "Keywords: Quantum Chemistry, Chemical Engineering, Data Analysis, FORTRAN, Organic and Inorganic Chemistry, Analytical Chemistry"
             }
         ],
         "work": [
@@ -82,26 +86,25 @@
                 "title": "Technical administrator / Check-in agent (Freelance)",
                 "duration": "2011 - 2020",
                 "location": "Barcelona, ES",
-                "description1": "Technical administrator for Fira de Barcelona in congresses like SAP, MWC, BIZ, ITMA, Smart City, IBTM, Fòrum Gastronòmic. Technology used: SAP",
-                "description2": "Cruise check-in agent at Port de Barcelona. Host services for AMA Waterways and Viking Cruises. Transfers, hospitalities, tours",
-                "description3": "Team building events for corporations",
-                "description4": "Incentives: Chairman’s Council EMEA"
+                "description1": "Acted as an intermediate between exhibitors and providers, working as a technical administrator for Fira de Barcelona in congresses like SAP, MWC, BIZ, ITMA, Smart City, IBTM, Fòrum Gastronòmic. Technology used: SAP",
+                "description2": "Assisted passengers as a cruise check-in agent at Port de Barcelona. Hosted services like transfers, hospitalities and tours for AMA Waterways and Viking Cruises",
+                "description3": "Took part in the organisation and execution of team building events for corporations as well as of incentives such as the Chairman’s Council EMEA"
             },
             {
                 "company": "English teacher",
                 "title": "English teacher (Freelance)",
                 "duration": "2011 - 2020",
                 "location": "Barcelona, ES",
-                "description1": "Private English teacher for kids, teenagers and adults",
-                "description2": "Preparation for official examinations"
+                "description1": "Worked as a private English teacher for kids, teenagers and adults. Customised sessions.",
+                "description2": "Prepared students for official examinations regardless of the level (from KET to Proficiency)"
             },
             {
                 "company": "AMES / ALME",
                 "title": "Logistics agent",
                 "duration": "2005 - 2006",
                 "location": "Barcelona, ES",
-                "description1": "In charge of the administration and shipping of goods at the Logistic Department. National and international clients",
-                "description2": "Apprentice at the I+D Department"
+                "description1": "Administrated and processed shipping orders of sintered mechanical pieces for both national and international clients at the Logistic Department",
+                "description2": "Examinated imperfections in mechanical pieces using the electron microscope while doing an internship as an apprentice at the I+D Department"
             }
         ],
         "skillmessage": "During my studies and my free time I have acquired the following skills:",
