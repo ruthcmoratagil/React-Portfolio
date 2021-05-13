@@ -6,8 +6,7 @@
 ![ReactJS Resume Website Screenshot](/public/images/portfolio-screenshot.png?raw=true 'ReactJS Resume Website Screenshot')
 
 \
-**Click <a href='https://www.ruthcmoratagil.dev/'>here</a> to go to ReactJS Portfolio**
-\
+**Click <a href='https://www.ruthcmoratagil.dev/'>here</a> to go to my ReactJS Portfolio**
 \
 
 ---
