@@ -23,7 +23,7 @@ class About extends Component {
                             className="profile-pic"
                             src={profilepic}
                             alt="Profile Pic"
-                            title="Photo by Justin P Brown Photography (www.justinpbrown.com)"
+                            title="Photo by Justin P Brown Photography - www.justinpbrown.com"
                         />
                     </div>
                     <div className="nine columns main-col">

@@ -69,6 +69,9 @@
 
     /* Resume Section
    ------------------------------------------------------------------- */
+    #resume {
+        padding-bottom: 50px;
+    }
     #resume h1 {
         font: 16px/24px 'opensans-bold', sans-serif;
     }
@@ -105,9 +108,8 @@
     }
     #contact .section-head p.lead {
         font: 17px/33px opensans-light, sans-serif;
+        padding-right: 0;
     }
-
-    /* TODO +*********************************** !!!!!!!!!!! ññññññññññññññññññññññ */
     #contact button.submit {
         background: #3eb0f7;
         color: #fff;
@@ -329,6 +331,7 @@
         margin-bottom: 40px;
     }
     #portfolio h1 {
+        line-height: 50px;
         max-width: 70%;
         margin-right: auto;
         margin-left: auto;
@@ -404,6 +407,7 @@
     }
     #contact .section-head p.lead {
         text-align: center;
+        margin-left: 0;
     }
     #contact .widget_contact {
         text-align: center;

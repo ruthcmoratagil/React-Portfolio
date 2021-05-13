@@ -55,9 +55,7 @@ class App extends Component {
 
 export default App;
 
-// TODO:
-// - Import icons in assets from previous portfolio
-// - Fix message Ant Library in Contact Form
+
 
 // PORTFOLIO
 

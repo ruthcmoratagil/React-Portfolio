@@ -1,38 +1,50 @@
-import { message } from 'antd';
-import * as emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 
 const Contact = ({ data }) => {
-    // const [url, setUrl] = useState('mailto:ruth.morata@gmail.com?subject=subject&body=body');
     const [name, setName] = useState('');
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
-    const [body, setBody] = useState('');
+    const [message, setMessage] = useState('');
 
-    // const handleClick = (e) => {
-    //     e.preventDefault();
-    //     window.open(`mailto:${email}?subject=${subject}&body=${name}: ${body}`);
-    // };
-
-    function sendEmail(e) {
+    const handleClick = (e) => {
         e.preventDefault();
-        emailjs
-            .sendForm('service_esf484m', 'template_q74iozl', e.target, 'user_GJvEX9ClPz7BoOhSvR0rw')
-            .then(
-                (result) => {
-                    console.log(result.text);
-                },
-                (error) => {
-                    console.log(error.text);
-                },
-            );
+        window.open(
+            `mailto:${data?.email}
+            ?subject=New message from ruthcmoratagil.dev: ${subject}
+            &body=Dear ${name},%0D%0DThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0DName: ${name}%0DEmail: ${email}%0DSubject: ${subject}%0DMessage: ${message}%0D`
+        );
+    };
 
-        message.success({
-            content: 'Successfully logged in!',
-            duration: 3,
-            className: 'success-message',
-        });
-    }
+    // A IMPORTS:
+    // import * as emailjs from 'emailjs-com';
+
+    // function sendEmail(e) {
+    //     e.preventDefault();
+    //     emailjs
+    //         .sendForm(
+    //             'service_esf484m',
+    //             'template_q74iozl',
+    //             e.target,
+    //             'user_GJvEX9ClPz7BoOhSvR0rw'
+    //         )
+    //         .then(
+    //             (result) => {
+    //                 console.log(result.text);
+    //             },
+    //             (error) => {
+    //                 console.log(error.text);
+    //             }
+    //         );
+
+    // A IMPORTS:
+    // import { message } from 'antd';
+
+    // message.success({
+    //     content: 'Successfully logged in!',
+    //     duration: 3,
+    //     className: 'success-message',
+    // });
+    // }
 
     return (
         <section id="contact">
@@ -55,7 +67,7 @@ const Contact = ({ data }) => {
                         className="contact-form"
                         id="contactForm"
                         name="contactForm"
-                        onSubmit={sendEmail}
+                        // onSubmit={sendEmail}
                     >
                         <fieldset>
                             <div>
@@ -79,7 +91,7 @@ const Contact = ({ data }) => {
                                 </label>
                                 <input
                                     value={email}
-                                    type="text"
+                                    type="email"
                                     // defaultValue=""
                                     size="35"
                                     id="from_email"
@@ -89,7 +101,9 @@ const Contact = ({ data }) => {
                             </div>
 
                             <div>
-                                <label htmlFor="subject">Subject</label>
+                                <label htmlFor="subject">
+                                    Subject <span className="required">*</span>
+                                </label>
                                 <input
                                     value={subject}
                                     type="text"
@@ -106,8 +120,8 @@ const Contact = ({ data }) => {
                                     Message <span className="required">*</span>
                                 </label>
                                 <textarea
-                                    value={body}
-                                    onChange={(e) => setBody(e.target.value)}
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
                                     cols="50"
                                     rows="15"
                                     id="message"
@@ -116,10 +130,11 @@ const Contact = ({ data }) => {
                             </div>
 
                             <div className="button-container">
-                                {/* <button type="submit" onClick={handleClick} className="submit">
-                                    Submit
-                                </button> */}
-                                <button type="submit" className="submit">
+                                <button
+                                    type="submit"
+                                    onClick={handleClick}
+                                    className="submit"
+                                >
                                     Submit
                                 </button>
 
@@ -130,9 +145,13 @@ const Contact = ({ data }) => {
                         </fieldset>
                     </form>
 
-                    <div id="message-warning"> There was an error. Please try again.</div>
+                    <div id="message-warning">
+                        {' '}
+                        There was an error. Please try again.
+                    </div>
                     <div id="message-success">
-                        <i className="fa fa-check"></i>Your message was sent, thank you!
+                        <i className="fa fa-check"></i>Your message was sent,
+                        thank you!
                         <br />
                     </div>
                 </div>
@@ -150,7 +169,9 @@ const Contact = ({ data }) => {
                             </span>
                             <br />
                             <span>
-                                <a href={'mailto:' + data?.email}>{data?.email}</a>
+                                <a href={'mailto:' + data?.email}>
+                                    {data?.email}
+                                </a>
                             </span>
                         </p>
                     </div>

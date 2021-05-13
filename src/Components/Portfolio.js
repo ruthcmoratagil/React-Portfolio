@@ -8,17 +8,31 @@ class Portfolio extends Component {
             var projects = this.props.data.projects.map(function (projects) {
                 var projectImage = 'images/portfolio/' + projects.image;
                 return (
-                    <div key={projects.title} className="columns portfolio-item">
+                    <div
+                        key={projects.title}
+                        className="columns portfolio-item"
+                    >
                         <div className="item-wrap">
                             {/* <a href={projects.url} title={projects.title} target="_blank"> */}
-                            <Popup trigger={<img alt={projects.title} src={projectImage} />} modal>
+                            <Popup
+                                trigger={
+                                    <img
+                                        alt={projects.title}
+                                        src={projectImage}
+                                    />
+                                }
+                                modal
+                            >
                                 <a
                                     href={projects.url}
                                     title={projects.title}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img alt={projects.title} src={projectImage} />
+                                    <img
+                                        alt={projects.title}
+                                        src={projectImage}
+                                    />
                                 </a>
                                 <div className="link-icon">
                                     <a
@@ -57,8 +71,15 @@ class Portfolio extends Component {
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1>Projects I have created or collaborated in</h1>
-                        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                        <h1>
+                            <span>
+                                Projects I have created or collaborated in
+                            </span>
+                        </h1>
+                        <div
+                            id="portfolio-wrapper"
+                            className="bgrid-quarters s-bgrid-thirds cf"
+                        >
                             {projects}
                         </div>
                     </div>
