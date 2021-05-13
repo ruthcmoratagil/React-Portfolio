@@ -3,11 +3,11 @@
 
 ![ReactJS Resume Website Screenshot](/public/images/portfolio-screenshot.png?raw=true 'ReactJS Resume Website Screenshot')
 
-## <a href="https://www.ruthcmoratagil.dev/">Link to ReactJS Portfolio</a>
-
+\
+**Click <a href='https://www.ruthcmoratagil.dev/'>here</a> to go to ReactJS Portfolio**
 \
 \
-All Credits Goes to Tim Baker
+All credits go to Tim Baker
 <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
 
 HTML Design Template
