@@ -19,7 +19,12 @@ class About extends Component {
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src={profilepic} alt="Profile Pic" title="Photo by Justin P Brown photography" />
+                        <img
+                            className="profile-pic"
+                            src={profilepic}
+                            alt="Profile Pic"
+                            title="Photo by Justin P Brown Photography (www.justinpbrown.com)"
+                        />
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
@@ -53,7 +58,8 @@ class About extends Component {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <i className="fa fa-download"></i>Download Resume
+                                        <i className="fa fa-download"></i>
+                                        Download Resume
                                     </a>
                                 </p>
                             </div>
