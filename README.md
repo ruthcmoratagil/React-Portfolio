@@ -1,12 +1,17 @@
 <!-- markdownlint-disable MD033 -->
+
 # ReactJS Portfolio
 
+\
 ![ReactJS Resume Website Screenshot](/public/images/portfolio-screenshot.png?raw=true 'ReactJS Resume Website Screenshot')
 
 \
 **Click <a href='https://www.ruthcmoratagil.dev/'>here</a> to go to ReactJS Portfolio**
 \
 \
+
+---
+
 All credits go to Tim Baker
 <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
 
