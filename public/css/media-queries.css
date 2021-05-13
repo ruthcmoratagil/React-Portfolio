@@ -233,7 +233,7 @@
     /* About Section
    -------------------------------------------------------------------- */
     #about .profile-pic {
-        display: none;
+        /* display: none; */
     }
     #about .download .button {
         width: 100%;
