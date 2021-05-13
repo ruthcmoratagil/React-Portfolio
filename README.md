@@ -7,7 +7,6 @@
 
 \
 **Click <a href='https://www.ruthcmoratagil.dev/'>here</a> to go to my ReactJS Portfolio**
-\
 
 ---
 
