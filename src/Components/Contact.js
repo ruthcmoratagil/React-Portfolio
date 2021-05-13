@@ -12,7 +12,7 @@ const Contact = ({ data }) => {
         window.open(
             `mailto:${data?.email}
             ?subject=New message from ruthcmoratagil.dev: ${subject}
-            &body=Dear ${name},%0D%0DThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0DName: ${name}%0D%0AEEEmail: ${email}%0DSubject: ${subject}%0DMessage: ${message}%0D---my email\nbody%0D%0Ablablabla`
+            &body=Dear ${name},%0D%0A%0D%0AThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0A%0D%0AName: ${name}%0D%0AEmail: ${email}%0D%0ASubject: ${subject}%0D%0AMessage: ${message}%0D%0A`
         );
     };
 
