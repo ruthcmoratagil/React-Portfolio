@@ -8,10 +8,11 @@ const Contact = ({ data }) => {
 
     const handleClick = (e) => {
         e.preventDefault();
+        setMessage(message.replace('\n', '%0D%0A'));
         window.open(
             `mailto:${data?.email}
             ?subject=New message from ruthcmoratagil.dev: ${subject}
-            &body=Dear ${name},%0D%0DThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0DName: ${name}%0DEmail: ${email}%0DSubject: ${subject}%0DMessage: ${message}%0D`
+            &body=Dear ${name},%0D%0DThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0DName: ${name}%0DEmail: ${email}%0DSubject: ${subject}%0DMessage: ${message}%0D---my email\nbody%0D%0Ablablabla`
         );
     };
 
