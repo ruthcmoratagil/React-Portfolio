@@ -158,7 +158,7 @@
                 "category": "Final Project from Master in Full Stack Development",
                 "description1": "Agile Methodology, small team.",
                 "description2": "Developed using ReactJS, HTML5, CSS3, Laravel (PHP), MySQL, Docker, Git, Github.",
-                "image": "skyscanner-clone-skyreader.png",
+                "image": "skyscanner-clone-skyreader.jpg",
                 "url": "https://github.com/jaumeserr/Nuclio-final-project"
             },
             {
@@ -166,7 +166,7 @@
                 "category": "Association from Catalonia that integrates dance and education",
                 "description1": "Concept creation, complete redesign and development of the entire webpage.",
                 "description2": "Developed using Wordpress, Elementor, CSS3.",
-                "image": "ara-en-moviment.png",
+                "image": "ara-en-moviment.jpg",
                 "url": "https://araenmoviment.org/"
             }
         ]
