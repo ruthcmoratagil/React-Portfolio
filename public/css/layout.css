@@ -46,8 +46,8 @@ header {
     width: 100%;
     background: #161415 url(../images/header-background-universe.jpg) no-repeat
         top center;
-    background-size: cover !important;
     -webkit-background-size: cover !important;
+    background-size: cover !important;
     text-align: center;
     overflow: hidden;
 }
@@ -1022,7 +1022,7 @@ call-to-action .button {
     font: 15px/24px 'opensans-bold', sans-serif;
     margin: 12px 0;
     color: #ebeeee;
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     width: 26%;
 }
@@ -1034,6 +1034,7 @@ call-to-action .button {
     background: #373233;
     margin-bottom: 42px;
     border: 0;
+    border-radius: 3px;
     outline: none;
     font-size: 15px;
     line-height: 24px;
@@ -1068,53 +1069,21 @@ call-to-action .button {
     color: #3eb0f7;
     font-size: 13px;
 }
-.success-message {
-    margin-top: 10vh;
-}
 
-#message-warning,
-#message-success {
-    display: none;
-    background: #0f0f0f;
-    padding: 24px 24px;
+#alert-container {
     margin-bottom: 36px;
     width: 65%;
     margin-left: 26%;
 }
-#message-warning {
-    color: #d72828;
-}
-#message-success {
-    color: #3eb0f7;
+#alert-container > div {
+    font-size: 1.5rem;
 }
 
-#message-warning i,
-#message-success i {
-    margin-right: 10px;
-}
 #image-loader {
     display: none;
     position: relative;
     left: 18px;
     top: 17px;
-}
-
-/* Twitter Feed */
-#twitter {
-    margin-top: 12px;
-    padding: 0;
-}
-#twitter li {
-    margin: 6px 0px 12px 0;
-    line-height: 30px;
-}
-#twitter li span {
-    display: block;
-}
-#twitter li b a {
-    font: 13px/36px 'opensans-regular', Sans-serif;
-    color: #474747 !important;
-    border: none;
 }
 
 /* ------------------------------------------------------------------ */

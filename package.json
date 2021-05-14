@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "antd": "^4.7.0",
+        "@material-ui/lab": "^4.0.0-alpha.58",
         "emailjs-com": "^2.6.3",
         "jquery": "^3.5.1",
         "react": "^16.13.1",

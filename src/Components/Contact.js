@@ -1,3 +1,5 @@
+import Alert from '@material-ui/lab/Alert';
+import * as emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 
 const Contact = ({ data }) => {
@@ -5,47 +7,41 @@ const Contact = ({ data }) => {
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [submitSuccess, setSubmitSuccess] = useState(false);
+    const [submitError, setSubmitError] = useState(false);
 
-    const handleClick = (e) => {
-        e.preventDefault();
-        setMessage(message.replace('\n', '%0D%0A'));
-        window.open(
-            `mailto:${data?.email}
-            ?subject=New message from ruthcmoratagil.dev: ${subject}
-            &body=Dear ${name},%0D%0A%0D%0AThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0A%0D%0AName: ${name}%0D%0AEmail: ${email}%0D%0ASubject: ${subject}%0D%0AMessage: ${message}%0D%0A`
-        );
-    };
-
-    // A IMPORTS:
-    // import * as emailjs from 'emailjs-com';
-
-    // function sendEmail(e) {
+    // NOTE: ACTIVAR "handleclick" si en algun moment prefereixo que se li obri una window del seu email client (en el meu cas, gmail) a l'usuari
+    // const handleClick = (e) => {
     //     e.preventDefault();
-    //     emailjs
-    //         .sendForm(
-    //             'service_esf484m',
-    //             'template_q74iozl',
-    //             e.target,
-    //             'user_GJvEX9ClPz7BoOhSvR0rw'
-    //         )
-    //         .then(
-    //             (result) => {
-    //                 console.log(result.text);
-    //             },
-    //             (error) => {
-    //                 console.log(error.text);
-    //             }
-    //         );
+    //     setMessage(message.replace('\n', '%0D%0A'));
+    //     window.open(
+    //         `mailto:${data?.email}
+    //         ?subject=New message from ruthcmoratagil.dev: ${subject}
+    //         &body=Dear ${name},%0D%0A%0D%0AThank you in advance for your message. Feel free to attach any file if needed or just hit "Send" and I will get back to you as soon as possible :)%0D%0A%0D%0AName: ${name}%0D%0AEmail: ${email}%0D%0ASubject: ${subject}%0D%0AMessage: ${message}%0D%0A`
+    //     );
+    // };
 
-    // A IMPORTS:
-    // import { message } from 'antd';
-
-    // message.success({
-    //     content: 'Successfully logged in!',
-    //     duration: 3,
-    //     className: 'success-message',
-    // });
-    // }
+    // NOTE: Per si torno a canviar de sistema, posar a dalt: import * as emailjs from 'emailjs-com';
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs
+            .sendForm(
+                'service_esf484m',
+                'template_q74iozl',
+                e.target,
+                'user_GJvEX9ClPz7BoOhSvR0rw'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    setSubmitSuccess(true);
+                },
+                (error) => {
+                    console.log(error.text);
+                    setSubmitError(true);
+                }
+            );
+    }
 
     return (
         <section id="contact">
@@ -63,12 +59,12 @@ const Contact = ({ data }) => {
 
             <div className="row">
                 <div className="eight columns">
-                    {/* <form id="contactForm" name="contactForm"> */}
                     <form
                         className="contact-form"
                         id="contactForm"
                         name="contactForm"
-                        // onSubmit={sendEmail}
+                        // NOTE: DESACTIVAR "onSubmit" si en algun moment prefereixo que se li obri una window del seu email client (en el meu cas, gmail) a l'usuari
+                        onSubmit={sendEmail}
                     >
                         <fieldset>
                             <div>
@@ -76,9 +72,9 @@ const Contact = ({ data }) => {
                                     Name <span className="required">*</span>
                                 </label>
                                 <input
+                                    required
                                     value={name}
                                     type="text"
-                                    // defaultValue=""
                                     size="35"
                                     id="from_name"
                                     name="from_name"
@@ -91,9 +87,9 @@ const Contact = ({ data }) => {
                                     Email <span className="required">*</span>
                                 </label>
                                 <input
+                                    required
                                     value={email}
                                     type="email"
-                                    // defaultValue=""
                                     size="35"
                                     id="from_email"
                                     name="from_email"
@@ -106,9 +102,9 @@ const Contact = ({ data }) => {
                                     Subject <span className="required">*</span>
                                 </label>
                                 <input
+                                    required
                                     value={subject}
                                     type="text"
-                                    // defaultValue=""
                                     size="35"
                                     id="subject"
                                     name="subject"
@@ -121,6 +117,7 @@ const Contact = ({ data }) => {
                                     Message <span className="required">*</span>
                                 </label>
                                 <textarea
+                                    required
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     cols="50"
@@ -133,7 +130,8 @@ const Contact = ({ data }) => {
                             <div className="button-container">
                                 <button
                                     type="submit"
-                                    onClick={handleClick}
+                                    // NOTE: ACTIVAR "handleclick" si en algun moment prefereixo que se li obri una window del seu email client (en el meu cas, gmail) a l'usuari
+                                    // onClick={handleClick}
                                     className="submit"
                                 >
                                     Submit
@@ -146,15 +144,21 @@ const Contact = ({ data }) => {
                         </fieldset>
                     </form>
 
-                    <div id="message-warning">
-                        {' '}
-                        There was an error. Please try again.
-                    </div>
-                    <div id="message-success">
-                        <i className="fa fa-check"></i>Your message was sent,
-                        thank you!
-                        <br />
-                    </div>
+                    {/* // NOTE: Per si torno a canviar de sistema, posar a dalt: import Alert from '@material-ui/lab/Alert'; */}
+                    {submitSuccess && (
+                        <div id="alert-container">
+                            <Alert severity="success">
+                                Your message has been successfully sent!
+                            </Alert>
+                        </div>
+                    )}
+                    {submitError && (
+                        <div id="alert-container">
+                            <Alert severity="error">
+                                There was an error. Please try again.
+                            </Alert>
+                        </div>
+                    )}
                 </div>
 
                 <aside className="four columns footer-widgets">
