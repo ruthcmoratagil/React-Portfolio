@@ -566,8 +566,9 @@ ul#nav li:first-child.current a {
     line-height: 30px;
     text-align: center;
 
-    opacity: 0;
     -moz-opacity: 0;
+    opacity: 0;
+    -webkit-filter: alpha(opacity=0);
     filter: alpha(opacity=0);
 
     -webkit-transition: opacity 0.3s ease-in-out;
@@ -586,8 +587,6 @@ ul#nav li:first-child.current a {
     cursor: pointer;
 }
 .portfolio-item .portfolio-item-meta {
-    background-color: lightgreen;
-
     padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
@@ -598,7 +597,6 @@ ul#nav li:first-child.current a {
     font: 12px/18px 'opensans-light', sans-serif;
     color: #c6c7c7;
     margin-bottom: 0;
-    background-color: green;
 }
 
 .popup-overlay .link-icon {
@@ -618,6 +616,7 @@ ul#nav li:first-child.current a {
 }
 .popup-overlay h5 {
     color: #3eb0f7 !important;
+    margin-top: 50px;
 }
 
 .popup-content {

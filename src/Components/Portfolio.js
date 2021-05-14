@@ -55,8 +55,18 @@ class Portfolio extends Component {
                                         >
                                             <h5>{projects.title}</h5>
                                         </a>
-                                        <p>{projects.category}</p>
-
+                                        <p
+                                            style={{
+                                                fontWeight: 800,
+                                            }}
+                                        >
+                                            {projects.category}
+                                        </p>
+                                        <p>
+                                            {projects.description1}
+                                            <br />
+                                            {projects.description2}
+                                        </p>
                                     </div>
                                 </div>
 
