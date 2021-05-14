@@ -56,6 +56,7 @@ class Portfolio extends Component {
                                             <h5>{projects.title}</h5>
                                         </a>
                                         <p>{projects.category}</p>
+
                                     </div>
                                 </div>
 

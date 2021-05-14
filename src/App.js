@@ -54,29 +54,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-// PORTFOLIO
-
-// "portfolio": {
-//     "projects": [
-//         {
-//             "title": "Skyscanner Clone (ReactJS)",
-//             "category": "Final Project from Master in Full Stack Development",
-//             "image": "skyscanner-clone-skyreader.png",
-//             "url": "https://github.com/jaumeserr/Skyscanner-Nuclio/"
-//         },
-//         {
-//             "title": "Pinterest Clone (ReactJS)",
-//             "category": "Project from Master in Full Stack Development",
-//             "image": "lipsflyer.jpg",
-//             "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-//         },
-//         {
-//             "title": "Netflix Clone",
-//             "category": "Built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-//             "image": "lipsflyer.jpg",
-//             "url": "#"
-//         }
-//     ]

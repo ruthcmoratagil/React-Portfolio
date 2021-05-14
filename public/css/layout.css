@@ -586,6 +586,8 @@ ul#nav li:first-child.current a {
     cursor: pointer;
 }
 .portfolio-item .portfolio-item-meta {
+    background-color: lightgreen;
+
     padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
@@ -596,6 +598,7 @@ ul#nav li:first-child.current a {
     font: 12px/18px 'opensans-light', sans-serif;
     color: #c6c7c7;
     margin-bottom: 0;
+    background-color: green;
 }
 
 .popup-overlay .link-icon {

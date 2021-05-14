@@ -154,12 +154,20 @@
     "portfolio": {
         "projects": [
             {
-                "title": "Skyscanner Clone (ReactJS)",
-                "category": "Final Project from Master in Full Stack Development",
-                "description1": "Developed in a small team. Agile Methodology",
-                "description2": "Technologies and tools used: ReactJS, HTML5, CSS3, Laravel (PHP), MySQL, Docker, Git / Github",
+                "title": "Skyscanner Clone",
+                "category": "Final Project from Master in Full Stack Development.",
+                "description1": "Developed in a small team. Agile Methodology.",
+                "description2": "Technologies and tools used: ReactJS, HTML5, CSS3, Laravel (PHP), MySQL, Docker, Git / Github.",
                 "image": "skyscanner-clone-skyreader.png",
                 "url": "https://github.com/jaumeserr/Skyscanner-Nuclio/"
+            },
+            {
+                "title": "Ara en Moviment",
+                "category": "Association that integrates dance and education.",
+                "description1": "Concept creation, complete redesign of the entire webpage and implementation.",
+                "description2": "Technologies and tools used: Wordpress, Elementor, CSS3.",
+                "image": "ara-en-moviment.png",
+                "url": "https://araenmoviment.org/"
             }
         ]
     },
