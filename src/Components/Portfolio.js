@@ -13,7 +13,6 @@ class Portfolio extends Component {
                         className="columns portfolio-item"
                     >
                         <div className="item-wrap">
-                            {/* <a href={projects.url} title={projects.title} target="_blank"> */}
                             <Popup
                                 trigger={
                                     <img
