@@ -4,9 +4,17 @@
 *   url: styleshout.com
 *   03-18-2014
 
+/* ==================================================================
+
+TOC:
+a. DEVICE SIZE: screenwidth less than 1024px
+b. DEVICE SIZE: screenwidth less than 900px
+c. DEVICE SIZE: mobile wide/smaller tablets
+d. DEVICE SIZE: mobile narrow
+
 /* ================================================================== */
 
-/* screenwidth less than 1024px
+/* a. DEVICE SIZE: screenwidth less than 1024px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
     /* header styles
@@ -18,7 +26,7 @@
     }
 }
 
-/* screenwidth less than 900px
+/* b. DEVICE SIZE: screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
     /* header styles
@@ -116,7 +124,7 @@
     }
 }
 
-/* mobile wide/smaller tablets
+/* c. DEVICE SIZE: mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -468,7 +476,7 @@
     }
 }
 
-/* mobile narrow
+/* d. DEVICE SIZE: mobile narrow
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
